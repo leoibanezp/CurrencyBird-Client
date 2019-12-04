@@ -4,13 +4,21 @@
   "description": "Integration with NON-R API from the client",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha"
   },
   "author": "Leonardo Ibanez",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "crypto": "^1.0.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "libsodium": "^0.7.6",
+    "libsodium-wrappers": "^0.7.6",
+    "should": "^13.2.3",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
   }
 }
